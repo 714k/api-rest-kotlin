@@ -23,6 +23,7 @@ class VerbsController(@Autowired private val VerbsRepository: VerbsRepository) {
 	fun getAllVerbs() : List<Verb> = VerbsRepository.findAll()
 
 	// Creates a Verb (in case of need)
+/*
 	@PostMapping("/verbs")
 	fun createVerb(@Valid @RequestBody verb: Verb) : Verb = VerbsRepository.save(verb)
 
@@ -32,8 +33,10 @@ class VerbsController(@Autowired private val VerbsRepository: VerbsRepository) {
 	 .map{
 		 ResponseEntity.ok(it)
 	 }.orElse(ResponseEntity.notFound().build())
+*/
 
 	// Updates a Verb (in case of need)
+/*
 	@PutMapping("/verbs/{verbId}")
 	fun updateVerb(@PathVariable verbId : Long, @Valid @RequestBody updatedVerb: Verb)
 	 : ResponseEntity<Verb> = VerbsRepository.findById(verbId)
@@ -49,4 +52,5 @@ class VerbsController(@Autowired private val VerbsRepository: VerbsRepository) {
 		 VerbsRepository.delete(it)
 		 ResponseEntity<Void>(HttpStatus.OK)
 	 }.orElse(ResponseEntity.notFound().build())
+*/
 }
