@@ -10,15 +10,15 @@ import javax.validation.constraints.NotBlank
 data class Verb(
  @Id @GeneratedValue(
   strategy = GenerationType.IDENTITY)
- val verb_id: Long = 0,
- @get: NotBlank val verb_meaning: String = "",
- @get: NotBlank val verb_level: Int = 0,
- @get: NotBlank val verb_path_img: String = "",
- @get: NotBlank val verb_infinitive: String = "",
- @get: NotBlank val verb_simple_past: String = "",
- @get: NotBlank val verb_past_participle: String = "",
- @get: NotBlank val verb_category: String = "",
- @get: NotBlank val verb_types: String = "",
- @get: NotBlank val verb_examples: String = ""
+ val id: Long = 0,
+ @get: NotBlank val meaning: String = "",
+ @get: NotBlank val level: Int = 0,
+ @get: NotBlank val path_img: String = "",
+ @get: NotBlank val infinitive: String = "",
+ @get: NotBlank val simple_past: String = "",
+ @get: NotBlank val past_participle: String = "",
+ @get: NotBlank val category: String = "",
+ @get: NotBlank val types: String = "",
+ @get: NotBlank val examples: String = ""
 )
 {}

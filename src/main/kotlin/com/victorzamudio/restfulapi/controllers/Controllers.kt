@@ -26,14 +26,14 @@ class VerbsController(@Autowired private val VerbsRepository: VerbsRepository) {
 /*
 	@PostMapping("/verbs")
 	fun createVerb(@Valid @RequestBody verb: Verb) : Verb = VerbsRepository.save(verb)
-
+*/
 	// Gets a single Verb
 	@GetMapping("/verbs/{verbId}")
 	fun getVerbById(@PathVariable verbId: Long) : ResponseEntity<Verb> = VerbsRepository.findById(verbId)
 	 .map{
 		 ResponseEntity.ok(it)
 	 }.orElse(ResponseEntity.notFound().build())
-*/
+
 
 	// Updates a Verb (in case of need)
 /*

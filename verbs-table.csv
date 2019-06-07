@@ -1,4 +1,4 @@
-"verb_id";"verb_meaning";"verb_level";"verb_path_img";"verb_infinitive";"verb_simple_past";"verb_past_participle";"verb_category";"verb_types";"verb_examples"
+"id";"meaning";"level";"path_img";"infinitive";"simple_past";"past_participle";"category";"types";"examples"
 1;"Acatar";4;"assets/img/verbs/irregular/abide.jpg";"Abide";"Abode / Abided";"Abode / Abided / Abidden";"A3";"irregular";"I abide your decision"
 2;"Aceptar";0;"assets/img/verbs/regular/accept.jpg";"accept";"accepted";"accepted";"R";"regular";"I accept this conditions from you-_-I can't accept your money"
 3;"Agregar";0;"assets/img/verbs/regular/add.jpg";"add";"added";"added";"R";"regular";"She add the milk to her cereal"
