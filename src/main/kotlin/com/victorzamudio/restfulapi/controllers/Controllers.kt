@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.http.HttpStatus
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("v1/api")
 class VerbsController(@Autowired private val VerbsRepository: VerbsRepository) {
 	// gets all verbs
 	@GetMapping("/verbs")
